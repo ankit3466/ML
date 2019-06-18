@@ -1,1 +1,20 @@
+ # importing numpy library
+import numpy as np
 
+z=np.array([[2,3,4],[3,4,5],[4,6,5],[6,8,3]])
+    # a 4*3 2d array
+    
+    #accessing a single data
+    #array_name[row_no][column_no]
+a=z[2][2]
+    # 2nd row and 3rd column----->o/p = 5
+    
+#slicing of array
+c=z[0:2,0:1]
+    #it includes 0,1 rows and 0 column
+    #o/p----[[2,3]]
+    
+# access a particular column
+s=z[0:,[0,2]]
+v=z[[0,2],[0,2]]
+  # it does not include 1 row and 1 column
