@@ -1,0 +1,14 @@
+##importing numpy
+import numpy as np
+
+z=np.array([[2,3,4],[3,6,8],[4,5,6],[6,2,9]])
+
+z.shape  #it show the shape of array (4,3)
+
+z.reshape((3,4))  # it will reshape the array and access data in a sequence way
+
+z.transpose()  # it transpose the matrix
+
+z.trace()  #it return the sum of digonal element
+
+z.resize((3,4))  # it resize the array and make permanant
