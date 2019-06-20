@@ -7,8 +7,8 @@ plt.xlabel("X axis")
 plt.ylabel("Y axis")
 plt.title("Different graphs")
 
-plt.plot(x,y)          ## Ploting line graph
-plt.scatter(x,y)       ## Ploting dots or scatter graph
-plt.bar(x,y)           ## Ploting bar graph
-plt.hist(x,hue=y)          ## Ploting histogram
+plt.plot(x,y)                             ## Ploting line graph
+plt.scatter(x,y)                          ## Ploting dots or scatter graph
+plt.bar(x,y)                              ## Ploting bar graph
+plt.hist(x,hue=y)                         ## Ploting histogram
 plt.pie(x,y,explode=[0,0,0.1,0,0.1])      ## Ploting the pie chart
